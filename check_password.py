@@ -35,5 +35,5 @@ def main(args):
 			print(f'{password} not found carry on with your supersecure password...')
 	return 'Done'
 if __name__='__main__'
-main(sys.argv[1:])
+sys.exit(main(sys.argv[1:]))
 
